@@ -1,0 +1,66 @@
+<?php get_header('main'); ?>
+
+<div class="container-fluid" id="containerhmp">
+    <h2><a href="http://192.168.0.82/rsportal/2014/06/12/a-new-post/"> Welcome to IIT Hyderabad Research Portal </a></h2>
+        <p> The PhD programme at the Indian Institute of Technology Hyderabad encourages quality and original research. Currently, IITH offers research degrees in four broad areas, namely, Engineering, Sciences, Liberal Arts and Design. Equipped with international standards research facilities, the faculty here aims to arm the researchers with excellent academic abilities to orient them towards a career in the contemporary world of research<a href="2014/06/12/a-new-post/">[...]</a>
+ </p>
+</div>
+
+<!-- <div class="jumbotron thumbnail " id="containercse1"> -->
+<!--<h3>Research at IITH </h3>-->
+<!-- <div class="jumbotron thumbnail" id="containerhmp2"> -->
+<?php
+if( function_exists('FA_display_slider') ){
+//    FA_display_slider(199);
+	FA_display_slider(612);
+}
+?>
+<!-- </div> -->
+
+
+
+<br/>
+<div class="col-md-7" id="container1">
+	<div class="container-fluid">
+	<h3> Doctoral Representative message: </h3>
+
+<p>IIT Hyderabad Research Scholars portal aims to serve the research community by providing a comprehensive collection of research being carried out in science, engineering, design and liberal arts. </p>
+
+<p>It also acts as a platform for the PhD students to discuss challenging and intriguing questions  and to come up with innovative solutions.</p>
+
+<p>Research Scholars portal also provides many useful and up to date research related information like  fellowship notifications, job opportunities in and outside India, academia and industry, assistance with common software tools.</p>
+<hr>
+<!-- 	<h3> Dean's Message: </h3>
+		<p> "If you do not call header.php, then you must make sure to add all the header Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."</p>
+		-->
+	</div>
+</div>
+<div class="col-md-4 col-md-offset-1" id="containerhmp1">
+      <h3>News:</h3>
+        <?php
+if( function_exists('FA_display_slider') ){
+    FA_display_slider(166);
+}
+?>
+</div>
+</div>
+
+
+
+
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+
+	
+
+
+    <?php the_content(); ?>
+
+
+
+<?php endwhile; else: ?>
+    <p><?php _e('Sorry, this page does not exist.'); ?></p>
+<?php endif; ?>
+
+<?php get_footer('main'); ?>

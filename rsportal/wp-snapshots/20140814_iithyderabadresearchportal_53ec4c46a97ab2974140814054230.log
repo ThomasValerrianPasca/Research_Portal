@@ -1,0 +1,100 @@
+********************************************************************************
+PACKAGE-LOG: 2014-08-14 05:47:22
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.6
+WORDPRESS:	3.9.1
+PHP INFO:	5.4.28 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:33 | filtered:0 | create:33 
+FILTERED: [] 
+wp_advps_optionset (3) 
+wp_advps_thumbnail (1) 
+wp_bp_activity (2) 
+wp_bp_activity_meta (0) 
+wp_bp_groups (0) 
+wp_bp_groups_groupmeta (0) 
+wp_bp_groups_members (0) 
+wp_bp_notifications (0) 
+wp_bp_user_blogs (1) 
+wp_bp_user_blogs_blogmeta (7) 
+wp_bp_xprofile_data (2) 
+wp_bp_xprofile_fields (1) 
+wp_bp_xprofile_groups (1) 
+wp_bp_xprofile_meta (0) 
+wp_cimy_uef_data (3) 
+wp_cimy_uef_fields (1) 
+wp_cimy_uef_wp_fields (0) 
+wp_commentmeta (0) 
+wp_comments (2) 
+wp_duplicator_packages (1) 
+wp_links (0) 
+wp_options (287) 
+wp_popularpostsdata (11) 
+wp_popularpostssummary (24) 
+wp_postmeta (375) 
+wp_posts (232) 
+wp_scroll_news (0) 
+wp_signups (0) 
+wp_term_relationships (25) 
+wp_term_taxonomy (16) 
+wp_terms (15) 
+wp_usermeta (70) 
+wp_users (3) 
+SQL CREATED: 20140814_iithyderabadresearchportal_53ec4c46a97ab2974140814054230_database.sql 
+SQL FILE SIZE: 453.63KB 
+SQL RUNTIME: 0.60 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/Bitnami/wordpress-3.9.1-0/apps/wordpress/htdocs 
+ARCHIVE FILE: 20140814_iithyderabadresearchportal_53ec4c46a97ab2974140814054230_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	78.25MB 
+STATS:	Dirs 545 | Files 4,156 | Links 0 
+SQL ADDED: 20140814_iithyderabadresearchportal_53ec4c46a97ab2974140814054230_database.sql 
+WARNING: Unable to zip directory: 'C:/Bitnami/wordpress-3.9.1-0/apps/wordpress/htdocs' 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4701
+    [filename] => C:\Bitnami\wordpress-3.9.1-0\apps\wordpress\htdocs\wp-snapshots\tmp\20140814_iithyderabadresearchportal_53ec4c46a97ab2974140814054230_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 28.59MB 
+ARCHIVE RUNTIME: 125.35 sec. 
+
+******************************************************************************** 
+INSTALLER: 
+******************************************************************************** 
+INSTALLER FILE: Build Start 
+INSTALLER FILE: Build Finished 
+INSTALLER FILE: Preping for use 
+INSTALLER FILE: Template parsed with new data 
+INSTALLER FILE: Complete [C:/Bitnami/wordpress-3.9.1-0/apps/wordpress/htdocs/wp-snapshots/tmp/20140814_iithyderabadresearchportal_53ec4c46a97ab2974140814054230_installer.php] 
+INSTALLER FILE: Added to archive 
+
+********************************************************************************
+RECORD ID:[1]
+FILE SIZE: Archive:28.59MB | SQL:453.63KB | Installer:414.02KB
+TOTAL PROCESS RUNTIME: 134.86 sec.
+DONE PROCESSING => 20140814_iithyderabadresearchportal 2014-08-14 05:49:37
+********************************************************************************
+ 
